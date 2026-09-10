@@ -110,7 +110,7 @@ header {
 }
 
 .featured{
-    background: url(/images/newsleter-banner.png) no-repeat center/cover;
+    background: url(/Downloads/newsletter-banner.png) no-repeat center/cover;
     padding: 60px;
 }
 #fea-new{
@@ -146,5 +146,60 @@ header {
     background-color: white;
     border: 1px solid white;
 }
+
+
+.podcast{
+    background-image: linear-gradient(to right, rgb(4, 4, 100),rgb(55, 55, 255));
+    padding: 6rem;
+}
+.subpod{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.subpod h4{
+    font-size: 4rem;
+    color: white;
+    font-weight: 100;
+}
+.subpod p{
+    font-size: 1.7rem;
+    color: white;
+    width: 80%;
+}
+.subpod .spasage{
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+}
+.learn{
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    width: 20%;
+    gap: 10px;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+
+
+}
+.learn img{
+    width: 20%;
+}
+.pod-items{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.pod-socials{
+    display: flex;
+    gap: 20px;
+}
+.pod-socials img{
+    width: 100%;
+}
+
 
 
