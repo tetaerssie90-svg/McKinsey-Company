@@ -1,0 +1,7 @@
+.third-part {
+    height: 300px;
+    width: 200px;
+    background-image: url(first-picture.jpeg);
+    display: flex;
+    flex-direction: column;
+}
