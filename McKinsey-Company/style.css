@@ -1,7 +1,26 @@
-.third-part {
-    height: 300px;
-    width: 200px;
-    background-image: url(first-picture.jpeg);
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+}
+
+.log-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.nav-section {
+    display: flex;
+    flex-direction: row ;
+    gap: 40px;
+}
+
+.search-section {
     display: flex;
     flex-direction: column;
+    gap: 30px;
 }
